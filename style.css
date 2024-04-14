@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 100vh;
+
+}
+.Quote-wrapper .quote-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid red;
+    background-color: rgb(74, 8, 116);
+    padding: 20px;
+
+}
+.refresh{
+    padding: 12px 20px;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.Quote-wrapper .quote-item p{
+    color: white;
+    font-size: 18px;
+
+
+}
+.loader{
+    font-size: 30px;
+    font-weight: bolder;
+    display: none;
+
+}
+.loader.show{
+    display: block;
+}
+
+.Quote-wrapper.hide{
+    display: none;
+}
